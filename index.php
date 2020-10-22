@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+
     <meta name="viewport" content="width=1024">
     <title>Tienda e-commerce</title>
 
@@ -44,7 +44,7 @@
 <body class="as-theme-light-heroimage">
 
     <div class="stack">
-        
+
         <div class="as-search-wrapper" role="main">
             <div class="as-navtuck-wrapper">
                 <div class="as-l-fullwidth  as-navtuck" data-events="event52">
@@ -55,7 +55,7 @@
                                     <img src="./assets/music-audio-alp-201709" alt="" width="1440" height="320" data-scale-params-2="wid=2880&amp;hei=640&amp;fmt=jpeg&amp;qlt=95&amp;op_usm=0.5,0.5&amp;.v=1503948581306" class="pd-billboard-hero ir">
                                 </div>
                                 <div class="pd-billboard-info">
-                                    <h1 class="pd-billboard-header pd-util-compact-small-18">Tienda e-commerce</h1>
+                                    <h1 class="pd-billboard-header pd-util-compact-small-18">* Tienda e-commerce *</h1>
                                 </div>
                             </div>
                         </div>
@@ -205,9 +205,9 @@
                                         <li class="as-accordion-item">
                                             <div id="facet2" class="as-search-facet iPod Compatibility ">
                                                 <div class="as-accordion-header as-search-accordion-header" data-ase-materializer="as-accordion-id2" data-ase-click="toggle">
-                                                   
+
                                                 </div>
-                                                
+
                                             </div>
                                         </li>
 
@@ -237,7 +237,7 @@
                                                         <div class=""></div>
                                                         <img src="./assets/samsung-galaxy-s9-xxl.jpg" class="ir ir item-image as-producttile-image" alt="" data-desc="Samsung galaxy" style="content:-webkit-image-set(url(https://md6.pricebaba.com/images/product/mobile/46638/samsung-galaxy-s9-xxl.jpg">
                                                     </div>
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -280,7 +280,7 @@
                                                         <div class=""></div>
                                                         <img src="./assets/l6g6.jpg" class="ir ir item-image as-producttile-image" alt="" width="445" height="445" data-desc="LG G6" style="">
                                                     </div>
-                                                    
+
                                                 </div>
                                             </div>
 
@@ -317,7 +317,7 @@
                                             <input type="hidden" name="title" value="LG G6">
                                             <input type="hidden" name="price" value="10000">
                                             <input type="hidden" name="unit" value="1">
-                                            <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
+                                            <button type="submit" class="mercadopago-button" formmethod="post">Comprar-</button>
                                         </form>
                                     </div>
                                 </div>
@@ -347,7 +347,7 @@
                                                 </div>
                                             </div>
 
-                                           
+
 
                                         </div>
 
@@ -386,7 +386,7 @@
                                             <img src="./assets/wireless-headphones" class="ir ir item-image as-producttile-image  " alt="" width="445" height="445">
                                         </div>
                                         <div class="images mini-gallery gal3 ">
-                                           
+
 
                                             <div class="as-isdesktop with-paddlenav with-paddlenav-onhover">
                                                 <div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink" data-relatedlink="4|BeatsX Earphones - Matte Silver|MR3J2">
@@ -394,7 +394,7 @@
                                                         <div class=""></div>
                                                         <img src="./assets/motorola-moto-g5-plus-1.jpg" class="ir ir item-image as-producttile-image" alt="" width="445" height="445" data-desc="BeatsX Earphones - Matte Silver - Image 1 " style="content:-webkit-image-set(url(https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g5-plus-1.jpg) 1x);">
                                                     </div>
-                                                    
+
                                                 </div>
 
                                             </div>
@@ -455,10 +455,10 @@
                                                         <div class=""></div>
                                                         <img src="./assets/motorola-moto-g4-3.jpg" class="ir ir item-image as-producttile-image" style="content:-webkit-image-set(url(https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g4-3.jpg) 1x);">
                                                     </div>
-                                                    
+
                                                 </div>
 
-                                               
+
                                             </div>
 
                                         </div>
@@ -493,7 +493,7 @@
                                             <img src="./assets/wireless-headphones" class="ir ir item-image as-producttile-image  " alt="" width="445" height="445">
                                         </div>
                                         <div class="images mini-gallery gal5 ">
-                                       
+
 
                                             <div class="as-isdesktop with-paddlenav with-paddlenav-onhover">
                                                 <div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink" data-relatedlink="6|Powerbeats3 Wireless Earphones - Neighborhood Collection - Brick Red|MPXP2">
@@ -501,13 +501,13 @@
                                                         <div class=""></div>
                                                         <img src="./assets/003.jpg" class="ir ir item-image as-producttile-image" alt="" width="445" height="445" style="content:-webkit-image-set(url(https://news.mynavi.jp/article/20180416-xperia-next/images/003.jpg) 1x);">
                                                     </div>
-                                                    
+
                                                 </div>
 
-                                                
+
                                             </div>
 
-                                            
+
 
                                         </div>
 
