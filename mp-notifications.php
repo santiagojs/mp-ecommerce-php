@@ -6,13 +6,11 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 
-$fichero = 'notifications.txt';
-$actual = file_get_contents($fichero);
-$actual .= "=======================================";
+$mensaje = "=======================================";
 foreach($_POST as $nombre_campo => $valor){
 	$actual .= "$nombre_campo = $valor\n" ;
 }
-if (file_put_contents($fichero, $actual)){
+if (mail('marketing@agrupacionduna.com', 'Nueva notificación', $mensaje)){
 	header('HTTP/1.1 200 OK');
 }
 exit;
