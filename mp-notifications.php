@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 
 $mensaje = "=======================================";
 foreach($_POST as $nombre_campo => $valor){
-	$actual .= "$nombre_campo = $valor\n" ;
+	$mensaje .= "$nombre_campo = $valor\n" ;
 }
 if (mail('marketing@agrupacionduna.com', 'Nueva notificación', $mensaje)){
 	header('HTTP/1.1 200 OK');
