@@ -138,7 +138,7 @@
 								  	"failure" => "https://santiagojs-mp-commerce-php.herokuapp.com/index.php?estado=failure",
 								  	"pending" => "https://santiagojs-mp-commerce-php.herokuapp.com/index.php?estado=pending"
 								  );
-								  $preference->notification_url = "https://santiagojs-mp-commerce-php.herokuapp.com/mp-notifications.php";
+								  $preference->notification_url = "https://www.agrupacionduna.com/mp-notifications.php";
 					              $preference->auto_return = "approved";
 					              $preference->external_reference = "marketing@agrupacionduna.com";
 								  $preference->payment_methods = array(
