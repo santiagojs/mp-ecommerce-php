@@ -1,7 +1,7 @@
 {
     "name": "mp-ecommerce-php",
     "type": "project",
-	"require": {
-		"silex/silex": "~1.1",
+	"require": { 
+		"mercadopago/dx-php": "dev-master" 
 	}
 }
