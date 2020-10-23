@@ -4,13 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
 error_reporting(E_ALL);
-// SDK de Mercado Pago
-require __DIR__ .  '/vendor/autoload.php';
 
-MercadoPago\SDK::setAccessToken("APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398");
-//  MercadoPago\SDK::setPlatformId("PLATFORM_ID");
-MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
-// MercadoPago\SDK::setCorporationId("CORPORATION_ID");.
 
 $fichero = 'notifications.txt';
 $actual = file_get_contents($fichero);
@@ -18,7 +12,17 @@ $actual .= "=======================================";
 foreach($_POST as $nombre_campo => $valor){
 	$actual .= "$nombre_campo = $valor\n" ;
 }
-file_put_contents($fichero, $actual);
+if (file_put_contents($fichero, $actual)){
+	header('HTTP/1.1 200 OK');
+}
+exit;
+// SDK de Mercado Pago
+require __DIR__ .  '/vendor/autoload.php';
+
+MercadoPago\SDK::setAccessToken("APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398");
+//  MercadoPago\SDK::setPlatformId("PLATFORM_ID");
+MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
+// MercadoPago\SDK::setCorporationId("CORPORATION_ID");.
 
 switch($_POST["type"]) {
 	case "payment":
@@ -34,5 +38,5 @@ switch($_POST["type"]) {
 		$plan = MercadoPago\Invoice.find_by_id($_POST["id"]);
 		break;
 }
-header('HTTP/1.1 200 OK');
+
 ?>
