@@ -169,8 +169,9 @@
 									   data-preference-id="<?php echo $preference->id; ?>">
 									  </script>
 								  </form>
+								 <!--
 								  <a href="<?php echo $preference->init_point; ?>">Pagar la compra</a>
-
+								-->
                             </div>
                         </div>
                     </div>
