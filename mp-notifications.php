@@ -1,5 +1,6 @@
 <?php
 
+
 $mensaje = "=======================================";
 foreach($_POST as $nombre_campo => $valor){
 	$mensaje .= "$nombre_campo = $valor\n" ;
