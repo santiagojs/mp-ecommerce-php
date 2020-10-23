@@ -1,5 +1,7 @@
 {
     "name": "mp-ecommerce-php",
     "type": "project",
-    "require": {}
+	"require": {
+		"silex/silex": "~1.1",
+	}
 }
